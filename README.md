@@ -21,11 +21,4 @@ To help IT students make informed career decisions by providing clear, structure
 
 University Web Development Project
 
-## Team Members
 
-| No. | Student Name | 
-|:---:|--------------|
-| 1 | Ibtisam Alanazi | 
-| 2 | Dana Alhamood | 
-| 3 | Leen Aloboud | 
-| 4 | Leen Alsughyyir | 

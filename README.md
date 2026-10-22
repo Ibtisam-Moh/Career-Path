@@ -1,93 +1,62 @@
-
 # Career Path
 
 **A web-based career guidance platform for IT students.**
 
-Career Path helps IT students explore career options, understand the skills required for different roles, and follow structured learning roadmaps toward their career goals.
+Career Path helps IT students explore career options, understand career requirements, and follow interactive learning roadmaps while tracking their progress.
 
 ## Overview
 
-Students may know which IT career they want to pursue but find it difficult to identify the skills, milestones, and practical steps needed to get there. Career Path aims to make this process clearer by organizing career requirements into interactive roadmaps and allowing students to follow their learning progress.
+Career Path aims to help IT students identify the skills, practical experience, and milestones needed for different career paths by providing structured learning roadmaps.
 
 ## Planned Features
 
 ### 1. User Accounts
-- **User Registration:** Create a new user account.
-- **User Authentication:** Log in and log out securely.
-- **Profile Management:** View and update personal profile information.
+- Register, log in, and log out.
+- View and update profile information.
 
 ### 2. Career Exploration
-- **Career Browsing:** Explore available IT career paths.
-- **Career Search:** Search for specific career paths by title or keyword.
-- **Career Information:** View required technical skills, proficiency levels (Beginner, Intermediate, and Advanced), and practical experience.
-- **Career Path Selection:** Select a preferred career path and access its roadmap.
+- Browse and search IT career paths.
+- View required skills, proficiency levels, and practical experience.
+- Select a career path and access its roadmap.
 
 ### 3. Interactive Career Roadmaps
-- **Structured Roadmaps:** View career-specific skills and practical milestones in a logical sequence.
-- **Milestone Tracking:** Mark roadmap milestones as completed or incomplete.
-- **Progress Calculation:** Automatically calculate and display roadmap completion progress.
-- **Progress Saving:** Save and retrieve roadmap progress across user sessions.
+- View structured skills and practical milestones.
+- Mark milestones as completed or incomplete.
+- Track completion through a percentage progress bar.
+- Save and retrieve progress using LocalStorage.
+- Select one career path at a time. Selecting a new path replaces the previous selection and progress.
 
 ### 4. Learning Resources
-- **Professional Certifications:** View recommended certifications relevant to each career path.
-- **Learning Resources:** Access relevant learning resources through links associated with roadmap skills.
+- View relevant professional certifications.
+- Access learning resources for roadmap skills.
 
 ### 5. Administration
-- **Add Career Paths:** Allow administrators to create new career paths and associated roadmaps.
-- **Edit Career Paths:** Allow administrators to update existing career paths and roadmaps.
-- **Delete Career Paths:** Allow administrators to remove existing career paths and roadmaps.
-- **Access Control:** Restrict administrative functions to authorized administrators.
-
-> **Development Note:** These features represent the planned functionality of Career Path and will be implemented progressively throughout the development phases.
-
-## Career Paths
+- Add, edit, and delete career paths and their roadmaps.
+- Restrict administrative functions to authorized administrators.
 
 
-## Technologies and Tools Used
+## System Architecture
+
+Career Path follows a **Layered Architecture** that separates the user interface, user interaction management, core application functionality, and local data storage.
+
+## Technologies and Tools
 
 | Category | Technology / Tool |
-| --- | --- |
+|---|---|
 | Frontend | HTML5, CSS3, JavaScript |
-| Backend | PHP |
+| Backend (Planned) | PHP |
+| Browser Storage | LocalStorage |
 | Version Control | Git & GitHub |
 | Project Management | Jira |
 
-
-## Project Structure
-
-```text
-Career-Path/
-├── README.md    # Project documentation
-└── AUTHORS      # Team members' information
-```
-
-The project structure will be updated as the website's source code and additional files are uploaded.
-
-
-## How It Works
-
-The intended user journey is:
-
-1. Create an account or log in.
-2. Explore the available IT career paths.
-3. Select a career and view its roadmap.
-4. Review the required skills and learning milestones.
-5. Mark milestones as completed and track progress.
-
-## Screenshots
-
-
-
 ## Project Status
 
-**Academic project — Phase 3: Sprint 1.**
+**Phase 3: Sprint 1 — System Design and Interface Development**
 
-The sprint focuses on the website interface.
+Features are being developed incrementally. 
 
 ## Team Members
 
 Developed by a four-student team for **IT320 – Practical Software Engineering**, King Saud University.
 
-See the [AUTHORS](./AUTHORS) file for the team members' names.
-
-
+See the [AUTHORS](https://github.com/Ibtisam-Moh/Career-Path/blob/main/AUTHORS) file for team members' information.
